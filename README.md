@@ -18,7 +18,7 @@ python3 main.py
 
 ## How it works
 
-The program writes a fixed status-report line to `/output/entry.txt`. Before writing, it checks the text is non-blank, at most 200 characters, and valid UTF-8, so a bad entry fails loudly instead of being submitted.
+The program writes a fixed status-report line to `/output/entry.txt`. Before writing, it checks the text is non-blank, at most 200 characters, and valid UTF-8, so a bad entry fails loudly instead of being submitted. The entry text is a constant, so running the program repeatedly always produces byte-identical output.
 
 ---
 
